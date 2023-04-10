@@ -1,0 +1,1 @@
+//Aqui teremos as interfaces que vai ser utilizado para todos os controllers!
