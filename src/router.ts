@@ -12,7 +12,6 @@ routes.get('/user', async (req, res) => {
     const mongoGetUserRepository = new MongoGetUserRepository();
     const getUserControllers = new GetUserControllers(mongoGetUserRepository);
     const {body,statusCode } = await getUserControllers.handle();
-
     res.send(body).status(statusCode);
 
 })
