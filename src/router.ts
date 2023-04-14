@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { GetUserControllers } from './Controllers/get-users/get-user';
+import { GetUserControllers } from './Controllers/User/get-users/get-user';
 import { MongoGetUserRepository } from './repositories/get-users/mongo-get-users';
 
 const routes = Router()
